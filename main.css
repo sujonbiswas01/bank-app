@@ -1,0 +1,26 @@
+
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+     font-family: "Rubik", sans-serif;;
+}
+
+@theme{
+     --color-primary:#CAFF33;
+}
+
+@layer components{
+     .button{
+          color:#1C1C1C;
+          background-color:#CAFF33;
+          padding: 14px 24px ;
+          border-radius:50px;
+          transition: all;
+          
+     }
+
+     .button:hover{
+          background-color: #d1d1d1;
+     }
+}

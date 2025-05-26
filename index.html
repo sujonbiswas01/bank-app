@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="main.css">
+     <script src="https://kit.fontawesome.com/c924b405ea.js" crossorigin="anonymous"></script>
+     <title>Document</title>
+</head>
+<body class="bg-[#191919]">
+     <!-- Header section -->
+     <div>
+          <img src="images/abstractleft.png" class="absolute top-0 left-0 w-1/2 h-1/2 -z-10" alt="abstract">
+     </div>
+
+     <header class="flex items-center justify-between w-[80%] px-5 py-4 bg-[#1C1C1C] rounded-full mx-auto">
+          <div>
+               <img src="images/Logo.png" alt="logo">
+          </div>
+
+          <!-- mobile menu icon -->
+           <div class="md:hidden">
+               <button id="mobile-menu-button">
+                    <i class="fa-solid fa-bars text-white text-[2rem]"></i>
+               </button>
+           </div>
+
+           <!-- nav menu-->
+            <nav class="hidden md:flex items-center space-x-6">
+               <a href="#" class="text-white bg-[#262626] px-2 py-2 rounded-full hover:bg-[#57534d]">Home</a>
+               <a href="#">About</a>
+               <a href="#" class="text-white hover:text-[#747070] transition">Careers</a>
+               <a href="#" class="text-white hover:text-[#747070] transition">About</a>
+               <a href="#" class="text-white hover:text-[#747070] transition">Security</a>
+            </nav>
+
+            <div class="hidden md:flex items-center space-x-4">
+               <a href="#" class="text-white hover:hover:text-[#747070] transition">Sign up</a>
+               <a href="#" class="button">Login</a>
+            </div>
+     </header>
+
+     <div class="fixed inset-0 bg-[#191919]/70 z-50 flex flex-col items-center justify-center hidden " id="mobile-menu">
+          <div class="absolute top-4 right-4">
+               <button id="close-menu-button"><i class="fa-solid fa-xmark text-white text-[2.5rem]"></i></button>
+          </div>
+
+           <nav class="flex flex-col items-center space-y-6" >
+               <a href="#" class="text-white bg-[#262626] px-2 py-2 rounded-full hover:bg-[#57534d]">Home</a>
+               <a href="#">About</a>
+               <a href="#" class="text-white hover:text-[#747070] transition">Careers</a>
+               <a href="#" class="text-white hover:text-[#747070] transition">About</a>
+               <a href="#" class="text-white hover:text-[#747070] transition">Security</a>
+               <a href="#" class="text-white hover:hover:text-[#747070] transition">Sign up</a>
+               <a href="#" class="text-[#1C1C1C] bg-[#CAFF33]
+               
+               px-6 py-2 rounded-full hover:bg-[#d1d1d1] transition">Login</a>
+            </nav>
+
+     </div>
+
+
+
+     <!-- main Content -->
+
+     <main class="flex flex-col md:flex-row items-start justify-between md:py-12 w-[78%] mx-auto">
+
+          <section>
+               <div class="flex items-center mb-4">           
+                         <span class=" text-white bg-[#262626] px-4 py-2 rounded-full ">
+                         <i class="fa-solid fa-circle-check text-[#CAFF33]"></i>
+                         No LLC Required, No Credit Check.
+                    </span>
+               </div>
+
+               <h1 class="text-5xl md:text-[4rem] text-white mb-2">
+                    Welcome to YourBank
+                    <br>
+Empowering Your <span class="text-primary">Financial Journey </span> 
+               </h1>
+
+               <p class="text-gray-300 mb-8">At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers' needs.</p>
+
+               <a href="#" class="button">Open Account</a>
+
+          </section>
+
+          <section class="flex-1 flex flex-col items-end relative mt-12 md:mt-0">
+               <div class="relative flex justify-end w-full h-full -z-10">
+                    <img src="/images/abstractright.png" alt="" class="absolute ">
+               </div>
+               <div class="absolute -top-10 left-32 z-10 mt-8 md:mt-0">
+                    <div class="flex items-center bg-[#222518] px-4 py-2 rounded-lg shadow-lg">
+                         <i class="fa-solid fa-plus bg-primary px-3 py-3 rounded-full"></i>
+                         <div class="text-white font-bold text-lg">
+                              + $5000,00
+                         </div>
+                         <div class="text-xs text-gray-400">
+                              Monthly Income
+                         </div>
+                    </div>
+                    
+               </div>
+
+               <!-- card-->
+
+               <div class="bg-[#1a1a1a] rounded-2xl outline outline-line-200/5 p-8 w-full max-w-md mt-12 md:mt-0  relative z-0 md:mr-16">
+
+                    <div>
+                         <h3 class="text-white  font-samibold mb-4 ">Your Transactions</h3>
+
+                         <div class="space-y-2">
+
+                              <div class="flex items-center justify-between rounded-full px-4 py-3" >
+                                   <div class="flex items-center gap-3">
+                                        <span class="bg-[#262626] outline px-2 py-2 rounded-full"><i class="fa-solid fa-minus px-1 py-1 bg-primary rounded-full"></i></span>
+
+                                        <div>
+                                             <div class="text-white font-medium">
+                                                 Transaction 
+                                             </div>
+                                             <div class="text-xs text-gray-400">
+                                                  Joel Kenley
+                                             </div>
+
+                                        </div>
+
+                                       
+
+
+                                   </div>
+
+                                    <div class="text-red-400 font-bold">
+                                             -$68.00
+                                        </div>
+
+                                   
+                              </div>
+
+
+                                <div class="opacity-55 flex items-center justify-between rounded-full px-4 py-3" >
+                                   <div class="flex items-center gap-3">
+                                        <span class="bg-[#262626] outline px-2 py-2 rounded-full"><i class="fa-solid fa-minus px-1 py-1 bg-primary rounded-full"></i></span>
+
+                                        <div>
+                                             <div class="text-white font-medium">
+                                                 Transaction 
+                                             </div>
+                                             <div class="text-xs text-gray-400">
+                                                  Joel Kenley
+                                             </div>
+
+                                        </div>
+
+                                       
+
+
+                                   </div>
+
+                                    <div class="text-red-400 font-bold">
+                                             -$68.00
+                                        </div>
+
+                                   
+                              </div>
+
+
+
+                                <div class="opacity-40 flex items-center justify-between rounded-full px-4 py-3" >
+                                   <div class="flex items-center gap-3">
+                                        <span class="bg-[#262626] outline px-2 py-2 rounded-full"><i class="fa-solid fa-minus px-1 py-1 bg-primary rounded-full"></i></span>
+
+                                        <div>
+                                             <div class="text-white font-medium">
+                                                 Transaction 
+                                             </div>
+                                             <div class="text-xs text-gray-400">
+                                                  Joel Kenley
+                                             </div>
+
+                                        </div>
+
+                                       
+
+
+                                   </div>
+
+                                    <div class="text-red-400 font-bold">
+                                             -$68.00
+                                        </div>
+
+                                   
+                              </div>
+                         </div>
+
+                         
+                    </div>
+
+                    <div class="mt-8 ">
+                     <h3 class="text-white font-samibold mb-4">Money Exchange  </h3>
+                     <div class="overflow-hidden rounded-xl border border-gray-400">
+
+                         <table class="w-full border-collapse bg-[#262626]">
+                              <tr class="border-b border-gray-400"> 
+                                   <td class="p-4 border-r border-gray-400">
+                                        <div class="flex items-center gap-2">
+                                             <div>
+                                                  <img src="/images/in.png" alt="">
+                                             </div>
+
+                                             <div>
+                                                  <div class="text-white font-medium text-lg">INR
+
+                                                  </div>
+
+                                                  <div class="text-gray-400">Indian Rupees</div>
+                                             </div>
+                                        </div>
+                                   </td>
+
+                                   <td class="p-4">
+                                        <div class="flex items-center gap-2">
+                                             <div>
+                                                  <img src="/images/us.png" alt="">
+                                             </div>
+
+                                             <div>
+                                                  <div class="text-white font-medium text-lg">INR
+
+                                                  </div>
+
+                                                  <div class="text-gray-400">Indian Rupees</div>
+                                             </div>
+                                        </div>
+                                   </td>
+                              </tr>
+                               <tr class="border-b border-gray-400"> 
+                                   <td class="p-4 border-r border-gray-400">
+                                        <div class="flex items-center gap-2 justify-center">
+
+                                              <div class="text-white text-2xl text-center">
+                                               5,0000
+                                             </div>
+                                             
+                                        </div>
+                                   </td>
+
+                                   <td class="p-4">
+                                        <div class="flex items-center gap-2 justify-center">
+                                             <div class="text-white text-2xl text-center">
+                                                12.00
+                                             </div>
+                                             
+                                        </div>
+                                   </td>
+                              </tr>
+
+                         </table>
+
+                         
+
+                     </div>
+                  
+               </div>
+<div class="text-center w-full bg-[#22251B] px-6 py-3 rounded-full hover:bg-gray-300 ">
+          <button class="text-primary  items-center cursor-pointer hover:text-black ">
+                              Exchange
+                         </button>
+</div>
+             
+               </div>
+
+
+               <div class="flex items-center justify-end mt-5">
+
+                    <div class="bg-[#222518] rounded-full px-6 py-3 flex items-center ">
+                         <span class="text-white">Supported Currency</span>
+                         <div class="text-primary">
+                              ?
+                         </div>
+
+                    </div>
+
+               </div>
+
+
+              
+          </section>
+
+     </main>
+
+     <!-- prodect section -->
+
+     <section class="py-16">
+          <div class="w-[78%] mx-auto"> 
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+               <div>
+                    <h2 class="text-4xl font-bold text-white"> Our <span class="text-primary"> Products</span></h2>
+                    <p class="text-gray-300">Discover a range of comprehensive and customizable banking products at YourBank, designed to suit your unique financial needs and aspirations</p>
+               </div>
+
+               <div>
+                    <div class="bg-[#1C1C1C] p-2 rounded-full flex ">
+                         <button class="bg-primary text-black rounded-full font-medium px-8 py-2 cursor-pointer hover:bg-gray-300 transition">For Individuals</button>
+                         <button class="text-white font-medium py-2 px-8 ">  For businesses</button>
+                    </div>
+               </div>
+          </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+               <div class="flex flex-col items-center text-center px-4">
+                    <div class="mb-6">
+                         <img src="/images/icon1.png" alt="">
+
+                    </div>
+                    <h3 class="text-white font-samibold text-2xl mb-2">Checking Accounts</h3>
+                    <p class="text-gray-400">Enjoy easy and convenient access to your funds with our range of checking account options. Benefit from features such as online and mobile banking, debit cards, and free ATM access.</p>
+
+               </div>
+               <div class="flex flex-col items-center text-center px-4 border-l border-r border-red-400">
+                    <div class="mb-6">
+                         <img src="/images/icon2.png" alt="">
+
+                    </div>
+                    <h3 class="text-white font-samibold text-2xl mb-2">Checking Accounts</h3>
+                    <p class="text-gray-400">Enjoy easy and convenient access to your funds with our range of checking account options. Benefit from features such as online and mobile banking, debit cards, and free ATM access.</p>
+
+               </div>
+               <div class="flex flex-col items-center text-center px-4">
+                    <div class="mb-6">
+                         <img src="/images/icon3.png" alt="">
+
+                    </div>
+                    <h3 class="text-white font-samibold text-2xl mb-2">Checking Accounts</h3>
+                    <p class="text-gray-400">Enjoy easy and convenient access to your funds with our range of checking account options. Benefit from features such as online and mobile banking, debit cards, and free ATM access.</p>
+
+               </div>
+
+          </div>
+         
+     </section>
+
+     <!-- user case -->
+     <section class="py-16">
+          <div class="w-[78%] mx-auto">
+               <h2 class="text-primary text-3xl">Use Cases</h2>
+               <p class="text-gray-400">At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
+
+               <div class="grid grid-cols-2 gap-12 mb-2" >
+
+                    <!-- left -->
+                    <div class="grid grid-cols-2  gap-6 relative p-4 md:p12 bg-[#1c1c1c] rounded-2xl">
+                         <div class="absolute z-0">
+                              <img src="/images/dot2.png" alt="">
+
+                         </div>
+
+                         <!-- card -->
+
+                         <div class="bg-[#1A1A1A] py-6 rounded-xl flex flex-col gap-4 items-center justify-center relative z-10 outline outline-line-400/5">
+
+                              <img src="images/icon4.png" alt="">
+                              <h3 class="text-white font-medium mb-2 text-center">Managing <br> Personal <br>
+                                    Finances</h3>
+
+                         </div>
+                         <div class="bg-[#1A1A1A] py-6 rounded-xl flex flex-col gap-4 items-center justify-center relative z-10 outline outline-line-400/5">
+
+                              <img src="images/icon5.png" alt="">
+                              <h3 class="text-white font-medium mb-2 text-center">Saving for the Future</h3>
+
+                         </div>
+                         <div class="bg-[#1A1A1A] py-6 rounded-xl flex flex-col gap-4 items-center justify-center relative z-10 outline outline-line-400/5">
+
+                              <img src="images/icon6.png" alt="">
+                              <h3 class="text-white font-medium mb-2 text-center">Homeownership</h3>
+
+                         </div>
+                         <div class="bg-[#1A1A1A] py-6 rounded-xl flex flex-col gap-4 items-center justify-center relative z-10 outline outline-line-400/5">
+
+                              <img src="images/icon7.png" alt="">
+                              <h3 class="text-white font-medium mb-2 text-center">Education Funding <br>
+                                    Finances</h3>
+
+                         </div>
+                    </div>
+                    <!-- right -->
+                     <div class="py-10">
+                         <h3 class="text-2xl font-bold text-white mb-4"> For Individuals</h3>
+
+                         <p class="text-gray-400"> For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers</p>
+
+                         <div class="grid grid-cols-3 gap-8 ">
+                              <div>
+                                   <h4 class="text-[3rem] md:text-[4rem] font-bold text-primary mb-2 md:border-r-2 border-line-400/5 border-dashed">
+                                        78%
+                                   </h4>
+                                   <p class="text-gray-400 text-sm">Secure Retirement Planning</p>
+                              </div>
+                              <div>
+                                   <h4 class="text-[3rem] md:text-[4rem] font-bold text-primary mb-2 md:border-r-2 border-line-400/5 border-dashed">
+                                        63%
+                                   </h4>
+                                   <p class="text-gray-400 text-sm">Secure Retirement Planning</p>
+                              </div>
+                              <div>
+                                   <h4 class="text-[3rem] md:text-[4rem] font-bold text-primary mb-2 md:border-r-2 border-line-400/5 border-dashed">
+                                        91%
+                                   </h4>
+                                   <p class="text-gray-400 text-sm">Secure Retirement Planning</p>
+                              </div>
+
+                         </div>
+
+                         <button class="button mt-4 cursor-pointer">
+                              Learn More
+                         </button>
+
+                     </div>
+                    
+
+               </div>
+
+
+
+                <div class="grid grid-cols-2 gap-12 mb-2" >
+
+                     <!-- left -->
+                     <div class="py-10">
+                         <h3 class="text-2xl font-bold text-white mb-4"> For Business</h3>
+
+                         <p class="text-gray-400"> For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers</p>
+
+                         <div class="grid grid-cols-3 gap-8 ">
+                              <div>
+                                   <h4 class="text-[3rem] md:text-[4rem] font-bold text-primary mb-2 md:border-r-2 border-line-400/5 border-dashed">
+                                        65%
+                                   </h4>
+                                   <p class="text-gray-400 text-sm">Cash Flow Management</p>
+                              </div>
+                              <div>
+                                   <h4 class="text-[3rem] md:text-[4rem] font-bold text-primary mb-2 md:border-r-2 border-line-400/5 border-dashed">
+                                        70%
+                                   </h4>
+                                   <p class="text-gray-400 text-sm">Drive Business Expansion</p>
+                              </div>
+                              <div>
+                                   <h4 class="text-[3rem] md:text-[4rem] font-bold text-primary mb-2 md:border-r-2 border-line-400/5 border-dashed">
+                                        45%
+                                   </h4>
+                                   <p class="text-gray-400 text-sm">Streamline payroll processing</p>
+                              </div>
+
+                         </div>
+
+                         <button class="button mt-4 cursor-pointer">
+                              Learn More
+                         </button>
+
+                     </div>
+
+                    <!-- right -->
+                    <div class="grid grid-cols-2  gap-6 relative p-4 md:p12 bg-[#1c1c1c] rounded-2xl">
+                         <div class="absolute z-0">
+                              <img src="/images/dot2.png" alt="">
+
+                         </div>
+
+                         <!-- card -->
+
+                         <div class="bg-[#1A1A1A] py-6 rounded-xl flex flex-col gap-4 items-center justify-center relative z-10 outline outline-line-400/5">
+
+                              <img src="images/icon4.png" alt="">
+                              <h3 class="text-white font-medium mb-2 text-center">Managing <br> Personal <br>
+                                    Finances</h3>
+
+                         </div>
+                         <div class="bg-[#1A1A1A] py-6 rounded-xl flex flex-col gap-4 items-center justify-center relative z-10 outline outline-line-400/5">
+
+                              <img src="images/icon5.png" alt="">
+                              <h3 class="text-white font-medium mb-2 text-center">Saving for the Future</h3>
+
+                         </div>
+                         <div class="bg-[#1A1A1A] py-6 rounded-xl flex flex-col gap-4 items-center justify-center relative z-10 outline outline-line-400/5">
+
+                              <img src="images/icon6.png" alt="">
+                              <h3 class="text-white font-medium mb-2 text-center">Homeownership</h3>
+
+                         </div>
+                         <div class="bg-[#1A1A1A] py-6 rounded-xl flex flex-col gap-4 items-center justify-center relative z-10 outline outline-line-400/5">
+
+                              <img src="images/icon7.png" alt="">
+                              <h3 class="text-white font-medium mb-2 text-center">Education Funding <br>
+                                    Finances</h3>
+
+                         </div>
+                    </div>
+                   
+                    
+
+               </div>
+
+          </div>
+
+     </section>
+    
+
+
+
+
+     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const mobileMenuButton = document.getElementById("mobile-menu-button");
+        const closeMenuButton = document.getElementById("close-menu-button");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        mobileMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.remove("hidden");
+          mobileMenu.classList.add("flex");
+          document.body.style.overflow = "hidden"; // Prevent scrolling when menu is open
+        });
+
+        closeMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.remove("flex");
+          mobileMenu.classList.add("hidden");
+          document.body.style.overflow = ""; // Re-enable scrolling
+        });
+      });
+    </script>
+</body>
+</html>
